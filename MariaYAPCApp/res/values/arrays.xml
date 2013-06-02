@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="title_activity2_questions">Questions</string>
+    
+    <string-array name = "activity_main_names">
+        <item name = "alex">Alex</item>
+        <item name = "jenny">Jenny</item>
+        <item name = "maria">Maria</item>
+        <item name = "adam">Adam</item>
+    </string-array>
+    
+    <string-array name = "activity_questions_page_questions">
+        <item>Question 1</item>
+        <item>Question 2</item>
+        <item>Question 3</item>
+        <item>Question 4</item>
+        <item>Question 5</item>
+        <item>Question 6</item>
+        <item>Question 7</item>
+        <item>Question 8</item>
+        <item>Question 9</item>
+    </string-array>
+    
+    <string-array name = "activity_questions_page_spinner_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    
+    
+</resources>

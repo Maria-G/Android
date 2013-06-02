@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    
+        android:id="@+id/viewFlipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <!--adding views to ViewFlipper-->
+
+		<ListView 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" 
+		    android:id="@+id/listViewNames"
+			android:entries="@array/activity_main_names">
+			
+		</ListView>
+		
+		<LinearLayout 
+		    android:id="@+id/linLayoutQuestions"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+		
+		    <ScrollView
+		        android:id="@+id/scrollViewQuestions"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.35" >
+		
+		        
+		        <LinearLayout
+		        	android:id="@+id/linearLayoutQuestionsContainer"
+		            android:layout_width="match_parent"
+		            android:layout_height="81dp"
+		            android:orientation="vertical" >
+		
+					
+			</LinearLayout>
+	    </ScrollView>
+	
+	    <Button
+	        android:id="@+id/btnQuestionsDone"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:onClick="onClickDone"
+	        android:text="Done" />
+		
+		</LinearLayout>
+
+
+    </ViewFlipper>
+
