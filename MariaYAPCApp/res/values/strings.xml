@@ -7,14 +7,11 @@
     <string name="maria_questions">Questions for Maria</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_questions">Questions</string>
-    
-    
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="title_activity_main">MainActivity</string>
-    
-    
     <string name="button_done">Done</string>
     <string name="activity_questions_containerView">ContainerView</string>
+    <string name="title_activity_scoring">ScoringActivity</string>
 
 </resources>

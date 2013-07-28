@@ -29,20 +29,23 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
+        public static final int action_settings=0x7f090007;
         public static final int btnQuestionsDone=0x7f090005;
         public static final int linLayoutQuestions=0x7f090002;
         public static final int linearLayoutQuestionsContainer=0x7f090004;
         public static final int listViewNames=0x7f090001;
         public static final int scrollViewQuestions=0x7f090003;
+        public static final int tvQuestionsName=0x7f090006;
         public static final int viewFlipper=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int activity_scoring=0x7f030001;
     }
     public static final class menu {
         public static final int display_message=0x7f080000;
         public static final int main=0x7f080001;
+        public static final int scoring=0x7f080002;
     }
     public static final class string {
         public static final int action_settings=0x7f040002;
@@ -57,6 +60,7 @@ public final class R {
         public static final int title_activity_display_message=0x7f040005;
         public static final int title_activity_main=0x7f040009;
         public static final int title_activity_questions=0x7f040006;
+        public static final int title_activity_scoring=0x7f04000c;
     }
     public static final class style {
         /** 
