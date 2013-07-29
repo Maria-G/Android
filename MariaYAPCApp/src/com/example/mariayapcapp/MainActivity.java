@@ -12,9 +12,7 @@ import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
 
 public class MainActivity extends Activity {
-   // public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
-
-	private Intent scoringActivity;
+   	private Intent scoringActivity;
 	private String[] names;
 	private final String NAME_ID = "nameId";
 	
